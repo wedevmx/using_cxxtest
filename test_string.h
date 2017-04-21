@@ -8,7 +8,7 @@ class StringTestSuite : public CxxTest::TestSuite
     void testStringLength(void)
     {
       string name("Diego Farias");
-      size_t length = 12;
+      size_t length = 8
 
       TS_ASSERT_EQUALS(length, name.length());
     }
